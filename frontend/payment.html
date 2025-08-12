@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Campus Print — Payment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Campus Print</h1>
+    <nav class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="upload.html">Upload</a>
+      <a href="print.html">Place Order</a>
+      <a href="delivery_address.html">Delivery Address</a>
+      <a href="payment.html">Payment</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Payment Options</h2>
+      <p>UPI ID: <strong id="upi-id">8972548589@ibl</strong></p>
+      <p>You can copy the UPI ID or scan the QR code below.</p>
+      <button id="copy-upi">Copy UPI ID</button>
+      <div style="margin-top:14px;">
+        <img src="qr-code.png" alt="Payment QR" style="width:280px;height:auto;border:1px solid #e6e9ef;padding:8px;border-radius:8px;">
+      </div>
+      <p class="note">After payment, please notify via WhatsApp or email.</p>
+      <p><a href="#" data-wa="I have completed the payment. Please verify." data-all="true">Notify owner about payment</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">© Campus Print</footer>
+  <script src="scripts.js"></script>
+</body>
+</html>

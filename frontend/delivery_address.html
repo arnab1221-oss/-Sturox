@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Campus Print — Delivery Address</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Campus Print</h1>
+    <nav class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="upload.html">Upload</a>
+      <a href="print.html">Place Order</a>
+      <a href="delivery_address.html">Delivery Address</a>
+      <a href="payment.html">Payment</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Delivery Address</h2>
+      <form id="addressForm">
+        <label for="addr-name">Full Name:</label>
+        <input type="text" id="addr-name" required>
+
+        <label for="addr-phone">Phone Number:</label>
+        <input type="tel" id="addr-phone" required>
+
+        <label for="addr-address">Full Address:</label>
+        <textarea id="addr-address" rows="4" required></textarea>
+
+        <label for="addr-pincode">Pincode:</label>
+        <input type="text" id="addr-pincode" required>
+
+        <button type="submit">Save Address</button>
+      </form>
+      <small class="note">Saved locally in browser (demo). In production, submit this to your server.</small>
+    </section>
+  </main>
+
+  <footer class="site-footer">© Campus Print</footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
